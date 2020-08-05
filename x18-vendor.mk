@@ -232,7 +232,6 @@ PRODUCT_COPY_FILES += \
     vendor/powkiddy/x18/proprietary/vendor/lib/libfmcust.so:system/vendor/lib/libfmcust.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/libged.so:system/vendor/lib/libged.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/libgpu_aux.so:system/vendor/lib/libgpu_aux.so \
-    vendor/powkiddy/x18/proprietary/vendor/lib/libgui_ext.so:system/vendor/lib/libgui_ext.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/libhwm.so:system/vendor/lib/libhwm.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/libimageio.so:system/vendor/lib/libimageio.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/libimageio_FrmB.so:system/vendor/lib/libimageio_FrmB.so \
@@ -273,7 +272,6 @@ PRODUCT_COPY_FILES += \
     vendor/powkiddy/x18/proprietary/vendor/lib/libspeech_enh_lib.so:system/vendor/lib/libspeech_enh_lib.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/libstagefrighthw.so:system/vendor/lib/libstagefrighthw.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/libtz_uree.so:system/vendor/lib/libtz_uree.so \
-    vendor/powkiddy/x18/proprietary/vendor/lib/libui_ext.so:system/vendor/lib/libui_ext.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/liburee_meta_drmkeyinstall_v2.so:system/vendor/lib/liburee_meta_drmkeyinstall_v2.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/libvc1dec_sa.ca7.so:system/vendor/lib/libvc1dec_sa.ca7.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/libvcodec_cap.so:system/vendor/lib/libvcodec_cap.so \
@@ -372,7 +370,6 @@ PRODUCT_COPY_FILES += \
     vendor/powkiddy/x18/proprietary/vendor/lib64/libfmcust.so:system/vendor/lib64/libfmcust.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/libged.so:system/vendor/lib64/libged.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/libgpu_aux.so:system/vendor/lib64/libgpu_aux.so \
-    vendor/powkiddy/x18/proprietary/vendor/lib64/libgui_ext.so:system/vendor/lib64/libgui_ext.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/libhwm.so:system/vendor/lib64/libhwm.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/libimageio.so:system/vendor/lib64/libimageio.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/libimageio_FrmB.so:system/vendor/lib64/libimageio_FrmB.so \
@@ -409,7 +406,6 @@ PRODUCT_COPY_FILES += \
     vendor/powkiddy/x18/proprietary/vendor/lib64/libstagefrighthw.so:system/vendor/lib64/libstagefrighthw.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/libterservice.so:system/vendor/lib64/libterservice.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/libtz_uree.so:system/vendor/lib64/libtz_uree.so \
-    vendor/powkiddy/x18/proprietary/vendor/lib64/libui_ext.so:system/vendor/lib64/libui_ext.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/liburee_meta_drmkeyinstall_v2.so:system/vendor/lib64/liburee_meta_drmkeyinstall_v2.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/libvcodec_cap.so:system/vendor/lib64/libvcodec_cap.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/libvcodec_utility.so:system/vendor/lib64/libvcodec_utility.so \
@@ -418,4 +414,24 @@ PRODUCT_COPY_FILES += \
     vendor/powkiddy/x18/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so:system/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/mtk-ril.so:system/vendor/lib64/mtk-ril.so \
-    vendor/powkiddy/x18/proprietary/vendor/lib64/mtk-rilmd2.so:system/vendor/lib64/mtk-rilmd2.so
+    vendor/powkiddy/x18/proprietary/vendor/lib64/mtk-rilmd2.so:system/vendor/lib64/mtk-rilmd2.so \
+    vendor/powkiddy/x18/proprietary/vendor/lib/libsysenv.so:system/vendor/lib/libsysenv.so \
+    vendor/powkiddy/x18/proprietary/lib/libfs_mgr.so:system/lib/libfs_mgr.so \
+    vendor/powkiddy/x18/proprietary/lib64/libfs_mgr.so:system/lib64/libfs_mgr.so \
+    vendor/powkiddy/x18/proprietary/vendor/lib/libpqservice.so:system/vendor/lib/libpqservice.so \
+    vendor/powkiddy/x18/proprietary/vendor/lib64/libpqservice.so:system/vendor/lib64/libpqservice.so \
+    vendor/powkiddy/x18/proprietary/vendor/lib/libmtkcam_fwkutils.so:system/vendor/lib/libmtkcam_fwkutils.so \
+    vendor/powkiddy/x18/proprietary/vendor/lib64/libmtkcam_fwkutils.so:system/vendor/lib64/libmtkcam_fwkutils.so \
+    vendor/powkiddy/x18/proprietary/vendor/lib/libhwinfo.so:system/vendor/lib/libhwinfo.so \
+    vendor/powkiddy/x18/proprietary/vendor/lib64/libhwinfo.so:system/vendor/lib64/libhwinfo.so \
+    vendor/powkiddy/x18/proprietary/vendor/lib/libhevce_sb.ca7.android.so:system/vendor/lib/libhevce_sb.ca7.android.so \
+    vendor/powkiddy/x18/proprietary/vendor/lib/libcam.hal3a.v3.dng.so:system/vendor/lib/libcam.hal3a.v3.dng.so \
+    vendor/powkiddy/x18/proprietary/vendor/lib64/libcam.hal3a.v3.dng.so:system/vendor/lib64/libcam.hal3a.v3.dng.so \
+    vendor/powkiddy/x18/proprietary/vendor/lib/libaudiotoolkit.so:system/vendor/lib/libaudiotoolkit.so \
+    vendor/powkiddy/x18/proprietary/vendor/lib64/libaudiotoolkit.so:system/vendor/lib64/libaudiotoolkit.so
+
+
+# vendor/powkiddy/x18/proprietary/vendor/lib/libui_ext.so:system/vendor/lib/libui_ext.so \
+#     vendor/powkiddy/x18/proprietary/vendor/lib64/libui_ext.so:system/vendor/lib64/libui_ext.so \
+#     vendor/powkiddy/x18/proprietary/vendor/lib/libgui_ext.so:system/vendor/lib/libgui_ext.so \
+#     vendor/powkiddy/x18/proprietary/vendor/lib64/libgui_ext.so:system/vendor/lib64/libgui_ext.so \
