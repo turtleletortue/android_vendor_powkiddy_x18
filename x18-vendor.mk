@@ -112,7 +112,11 @@ PRODUCT_COPY_FILES += \
     vendor/powkiddy/x18/proprietary/vendor/bin/terservice:system/vendor/bin/terservice \
     vendor/powkiddy/x18/proprietary/vendor/bin/tertestclient:system/vendor/bin/tertestclient \
     vendor/powkiddy/x18/proprietary/vendor/bin/thermal_manager:system/vendor/bin/thermal_manager \
+    vendor/powkiddy/x18/proprietary/vendor/bin/wifi2agps:system/vendor/bin/wifi2agps \
+    vendor/powkiddy/x18/proprietary/vendor/bin/wmt_concurrency:system/vendor/bin/wmt_concurrency \
+    vendor/powkiddy/x18/proprietary/vendor/bin/wmt_launcher:system/vendor/bin/wmt_launcher \
     vendor/powkiddy/x18/proprietary/vendor/bin/wmt_loader:system/vendor/bin/wmt_loader \
+    vendor/powkiddy/x18/proprietary/vendor/bin/wmt_loopback:system/vendor/bin/wmt_loopback \
     vendor/powkiddy/x18/proprietary/vendor/etc/.tp/.ht120.mtc:system/vendor/etc/.tp/.ht120.mtc \
     vendor/powkiddy/x18/proprietary/vendor/etc/.tp/thermal.conf:system/vendor/etc/.tp/thermal.conf \
     vendor/powkiddy/x18/proprietary/vendor/etc/.tp/thermal.off.conf:system/vendor/etc/.tp/thermal.off.conf \
@@ -140,8 +144,7 @@ PRODUCT_COPY_FILES += \
     vendor/powkiddy/x18/proprietary/vendor/lib/hw/gps.mt8163.so:system/vendor/lib/hw/gps.mt8163.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/hw/gralloc.mt8163.so:system/vendor/lib/hw/gralloc.mt8163.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/hw/hwcomposer.mt8163.so:system/vendor/lib/hw/hwcomposer.mt8163.so \
-    vendor/powkiddy/x18/proprietary/vendor/lib/hw/keystore.mt8163.so:system/vendor/lib/hw/keystore.mt8163.so \
-    vendor/powkiddy/x18/proprietary/vendor/lib/hw/sensors.mt8163.so:system/vendor/lib/hw/sensors.mt8163.so \
+    vendor/powkiddy/x18/proprietary/vendor/lib/hw/lights.mt8163.so:system/vendor/lib/hw/lights.mt8163.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/lib3a.so:system/vendor/lib/lib3a.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/libBnMtkCodec.so:system/vendor/lib/libBnMtkCodec.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/libGdmaScalerPipe.so:system/vendor/lib/libGdmaScalerPipe.so \
@@ -292,7 +295,7 @@ PRODUCT_COPY_FILES += \
     vendor/powkiddy/x18/proprietary/vendor/lib64/hw/camera.mt8163.so:system/vendor/lib64/hw/camera.mt8163.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/hw/gps.mt8163.so:system/vendor/lib64/hw/gps.mt8163.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/hw/hwcomposer.mt8163.so:system/vendor/lib64/hw/hwcomposer.mt8163.so \
-    vendor/powkiddy/x18/proprietary/vendor/lib64/hw/keystore.mt8163.so:system/vendor/lib64/hw/keystore.mt8163.so \
+    vendor/powkiddy/x18/proprietary/vendor/lib64/hw/lights.mt8163.so:system/vendor/lib64/hw/lights.mt8163.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/hw/sensors.mt8163.so:system/vendor/lib64/hw/sensors.mt8163.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/lib3a.so:system/vendor/lib64/lib3a.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/libBnMtkCodec.so:system/vendor/lib64/libBnMtkCodec.so \
@@ -432,6 +435,8 @@ PRODUCT_COPY_FILES += \
     vendor/powkiddy/x18/proprietary/vendor/lib64/libaudiotoolkit.so:system/vendor/lib64/libaudiotoolkit.so
 
 
+#     vendor/powkiddy/x18/proprietary/vendor/lib64/hw/keystore.mt8163.so:system/vendor/lib64/hw/keystore.mt8163.so \
+#     vendor/powkiddy/x18/proprietary/vendor/lib/hw/keystore.mt8163.so:system/vendor/lib/hw/keystore.mt8163.so \
 # vendor/powkiddy/x18/proprietary/vendor/lib/libui_ext.so:system/vendor/lib/libui_ext.so \
 #     vendor/powkiddy/x18/proprietary/vendor/lib64/libui_ext.so:system/vendor/lib64/libui_ext.so \
 #     vendor/powkiddy/x18/proprietary/vendor/lib/libgui_ext.so:system/vendor/lib/libgui_ext.so \
