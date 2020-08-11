@@ -242,6 +242,7 @@ PRODUCT_COPY_FILES += \
     vendor/powkiddy/x18/proprietary/vendor/lib/libimageio_plat_drv_FrmB.so:system/vendor/lib/libimageio_plat_drv_FrmB.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/libion_mtk.so:system/vendor/lib/libion_mtk.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/libjni_pq.so:system/vendor/lib/libjni_pq.so \
+    vendor/powkiddy/x18/proprietary/vendor/lib/libClearMotionFW.so:system/vendor/lib/libClearMotionFW.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/libm4u.so:system/vendor/lib/libm4u.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/libmal.so:system/vendor/lib/libmal.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/libmatv_cust.so:system/vendor/lib/libmatv_cust.so \
