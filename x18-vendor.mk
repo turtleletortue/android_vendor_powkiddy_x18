@@ -141,10 +141,14 @@ PRODUCT_COPY_FILES += \
     vendor/powkiddy/x18/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/hw/audio.primary.mt8163.so:system/vendor/lib/hw/audio.primary.mt8163.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/hw/camera.mt8163.so:system/vendor/lib/hw/camera.mt8163.so \
+    vendor/powkiddy/x18/proprietary/vendor/lib/hw/gatekeeper.mt8163.so:system/vendor/lib/hw/gatekeeper.mt8163.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/hw/gps.mt8163.so:system/vendor/lib/hw/gps.mt8163.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/hw/gralloc.mt8163.so:system/vendor/lib/hw/gralloc.mt8163.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/hw/hwcomposer.mt8163.so:system/vendor/lib/hw/hwcomposer.mt8163.so \
+    vendor/powkiddy/x18/proprietary/vendor/lib/hw/keystore.mt8163.so:system/vendor/lib/hw/keystore.mt8163.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/hw/lights.mt8163.so:system/vendor/lib/hw/lights.mt8163.so \
+    vendor/powkiddy/x18/proprietary/vendor/lib/hw/memtrack.mt8163.so:system/vendor/lib/hw/memtrack.mt8163.so \
+    vendor/powkiddy/x18/proprietary/vendor/lib/hw/sensors.mt8163.so:system/vendor/lib/hw/sensors.mt8163.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/lib3a.so:system/vendor/lib/lib3a.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/libBnMtkCodec.so:system/vendor/lib/libBnMtkCodec.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/libGdmaScalerPipe.so:system/vendor/lib/libGdmaScalerPipe.so \
@@ -294,9 +298,12 @@ PRODUCT_COPY_FILES += \
     vendor/powkiddy/x18/proprietary/vendor/lib64/egl/libGLES_mali.so:system/vendor/lib64/egl/libGLES_mali.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/hw/audio.primary.mt8163.so:system/vendor/lib64/hw/audio.primary.mt8163.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/hw/camera.mt8163.so:system/vendor/lib64/hw/camera.mt8163.so \
+    vendor/powkiddy/x18/proprietary/vendor/lib64/hw/gatekeeper.mt8163.so:system/vendor/lib64/hw/gatekeeper.mt8163.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/hw/gps.mt8163.so:system/vendor/lib64/hw/gps.mt8163.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/hw/hwcomposer.mt8163.so:system/vendor/lib64/hw/hwcomposer.mt8163.so \
+    vendor/powkiddy/x18/proprietary/vendor/lib64/hw/keystore.mt8163.so:system/vendor/lib64/hw/keystore.mt8163.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/hw/lights.mt8163.so:system/vendor/lib64/hw/lights.mt8163.so \
+    vendor/powkiddy/x18/proprietary/vendor/lib64/hw/memtrack.mt8163.so:system/vendor/lib64/hw/memtrack.mt8163.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/hw/sensors.mt8163.so:system/vendor/lib64/hw/sensors.mt8163.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/lib3a.so:system/vendor/lib64/lib3a.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/libBnMtkCodec.so:system/vendor/lib64/libBnMtkCodec.so \
@@ -435,9 +442,6 @@ PRODUCT_COPY_FILES += \
     vendor/powkiddy/x18/proprietary/vendor/lib/libaudiotoolkit.so:system/vendor/lib/libaudiotoolkit.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/libaudiotoolkit.so:system/vendor/lib64/libaudiotoolkit.so
 
-
-#     vendor/powkiddy/x18/proprietary/vendor/lib64/hw/keystore.mt8163.so:system/vendor/lib64/hw/keystore.mt8163.so \
-#     vendor/powkiddy/x18/proprietary/vendor/lib/hw/keystore.mt8163.so:system/vendor/lib/hw/keystore.mt8163.so \
 # vendor/powkiddy/x18/proprietary/vendor/lib/libui_ext.so:system/vendor/lib/libui_ext.so \
 #     vendor/powkiddy/x18/proprietary/vendor/lib64/libui_ext.so:system/vendor/lib64/libui_ext.so \
 #     vendor/powkiddy/x18/proprietary/vendor/lib/libgui_ext.so:system/vendor/lib/libgui_ext.so \
