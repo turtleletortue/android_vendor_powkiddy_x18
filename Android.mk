@@ -60,3 +60,5 @@ LOCAL_SRC_FILES_32 = proprietary/vendor/lib/libdpframework.so
 include $(BUILD_PREBUILT)
 
 endif
+
+include $(call all-makefiles-under,$(LOCAL_PATH))

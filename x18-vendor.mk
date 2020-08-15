@@ -442,3 +442,13 @@ PRODUCT_COPY_FILES += \
 #     vendor/powkiddy/x18/proprietary/vendor/lib64/libui_ext.so:system/vendor/lib64/libui_ext.so \
 #     vendor/powkiddy/x18/proprietary/vendor/lib/libgui_ext.so:system/vendor/lib/libgui_ext.so \
 #     vendor/powkiddy/x18/proprietary/vendor/lib64/libgui_ext.so:system/vendor/lib64/libgui_ext.so \
+
+# Add packages
+
+# WFD
+PRODUCT_PACKAGES += \
+    audio.r_submix.mt8163
+
+# YGPS
+PRODUCT_PACKAGES += \
+    YGPS
