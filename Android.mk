@@ -18,52 +18,14 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),x18)
 $(info [x18] Copying DP Framework proprietary blobs)
+endif 
 
-include $(CLEAR_VARS)
-LOCAL_MODULE = libaudiocustparam
-LOCAL_MODULE_CLASS = SHARED_LIBRARIES
-LOCAL_MODULE_OWNER = mtk
-LOCAL_MODULE_SUFFIX = .so
-LOCAL_PROPRIETARY_MODULE = true
-LOCAL_MULTILIB = 32
-LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libaudiocustparam.so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE = libaudiocustparam
-LOCAL_MODULE_CLASS = SHARED_LIBRARIES
-LOCAL_MODULE_OWNER = mtk
-LOCAL_MODULE_SUFFIX = .so
-LOCAL_PROPRIETARY_MODULE = true
-LOCAL_MULTILIB = 64
-LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libaudiocustparam.so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE = libdpframework
-LOCAL_MODULE_CLASS = SHARED_LIBRARIES
-LOCAL_MODULE_OWNER = mtk
-LOCAL_MODULE_SUFFIX = .so
-LOCAL_PROPRIETARY_MODULE = true
-LOCAL_MULTILIB = 64
-LOCAL_SRC_FILES_64 = proprietary/vendor/lib64/libdpframework.so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE = libdpframework
-LOCAL_MODULE_CLASS = SHARED_LIBRARIES
-LOCAL_MODULE_OWNER = mtk
-LOCAL_MODULE_SUFFIX = .so
-LOCAL_PROPRIETARY_MODULE = true
-LOCAL_MULTILIB = 32
-LOCAL_SRC_FILES_32 = proprietary/vendor/lib/libdpframework.so
-include $(BUILD_PREBUILT)
-
-endif
 
 ifeq ($(TARGET_DEVICE),x15)
 $(info [x15] Copying DP Framework proprietary blobs)
 
+endif
+
 include $(CLEAR_VARS)
 LOCAL_MODULE = libaudiocustparam
 LOCAL_MODULE_CLASS = SHARED_LIBRARIES
@@ -104,7 +66,44 @@ LOCAL_MULTILIB = 32
 LOCAL_SRC_FILES_32 = proprietary/vendor/lib/libdpframework.so
 include $(BUILD_PREBUILT)
 
-endif
+include $(CLEAR_VARS)
+LOCAL_MODULE = libnvram
+LOCAL_MODULE_CLASS = SHARED_LIBRARIES
+LOCAL_MODULE_OWNER = mtk
+LOCAL_MODULE_SUFFIX = .so
+LOCAL_PROPRIETARY_MODULE = true
+LOCAL_MULTILIB = 32
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libnvram.so
+include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE = libnvram
+LOCAL_MODULE_CLASS = SHARED_LIBRARIES
+LOCAL_MODULE_OWNER = mtk
+LOCAL_MODULE_SUFFIX = .so
+LOCAL_PROPRIETARY_MODULE = true
+LOCAL_MULTILIB = 64
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libnvram.so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE = libnvramagentclient
+LOCAL_MODULE_CLASS = SHARED_LIBRARIES
+LOCAL_MODULE_OWNER = mtk
+LOCAL_MODULE_SUFFIX = .so
+LOCAL_PROPRIETARY_MODULE = true
+LOCAL_MULTILIB = 32
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libnvramagentclient.so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE = libnvramagentclient
+LOCAL_MODULE_CLASS = SHARED_LIBRARIES
+LOCAL_MODULE_OWNER = mtk
+LOCAL_MODULE_SUFFIX = .so
+LOCAL_PROPRIETARY_MODULE = true
+LOCAL_MULTILIB = 64
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libnvramagentclient.so
+include $(BUILD_PREBUILT)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
