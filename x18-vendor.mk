@@ -468,3 +468,8 @@ PRODUCT_PACKAGES += \
     hdmimanager \
     libhdmiservice \
     libhdmi
+
+# Libnvram
+PRODUCT_PACKAGES += \
+    libnvram \
+    libnvramagenclient
