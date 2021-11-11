@@ -264,9 +264,11 @@ PRODUCT_COPY_FILES += \
     vendor/powkiddy/x18/proprietary/vendor/lib/libmtkjpeg.so:system/vendor/lib/libmtkjpeg.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/libmtklimiter.so:system/vendor/lib/libmtklimiter.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/libmtkshifter.so:system/vendor/lib/libmtkshifter.so \
+    vendor/powkiddy/x18/proprietary/vendor/lib/libnvram.so:system/vendor/lib/libnvram.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/libnvram_daemon_callback.so:system/vendor/lib/libnvram_daemon_callback.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/libnvram_platform.so:system/vendor/lib/libnvram_platform.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/libnvram_sec.so:system/vendor/lib/libnvram_sec.so \
+    vendor/powkiddy/x18/proprietary/vendor/lib/libnvramagentclient.so:system/vendor/lib/libnvramagentclient.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/libperfservice.so:system/vendor/lib/libperfservice.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/libperfservicenative.so:system/vendor/lib/libperfservicenative.so \
     vendor/powkiddy/x18/proprietary/vendor/lib/libpq_cust.so:system/vendor/lib/libpq_cust.so \
@@ -400,9 +402,11 @@ PRODUCT_COPY_FILES += \
     vendor/powkiddy/x18/proprietary/vendor/lib64/libmtkjpeg.so:system/vendor/lib64/libmtkjpeg.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/libmtklimiter.so:system/vendor/lib64/libmtklimiter.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/libmtkshifter.so:system/vendor/lib64/libmtkshifter.so \
+    vendor/powkiddy/x18/proprietary/vendor/lib64/libnvram.so:system/vendor/lib64/libnvram.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/libnvram_daemon_callback.so:system/vendor/lib64/libnvram_daemon_callback.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/libnvram_platform.so:system/vendor/lib64/libnvram_platform.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/libnvram_sec.so:system/vendor/lib64/libnvram_sec.so \
+    vendor/powkiddy/x18/proprietary/vendor/lib64/libnvramagentclient.so:system/vendor/lib64/libnvramagentclient.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/libperfservice.so:system/vendor/lib64/libperfservice.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/libperfservicenative.so:system/vendor/lib64/libperfservicenative.so \
     vendor/powkiddy/x18/proprietary/vendor/lib64/libpq_cust.so:system/vendor/lib64/libpq_cust.so \
@@ -442,11 +446,6 @@ PRODUCT_COPY_FILES += \
 #     vendor/powkiddy/x18/proprietary/vendor/lib64/libui_ext.so:system/vendor/lib64/libui_ext.so \
 #     vendor/powkiddy/x18/proprietary/vendor/lib/libgui_ext.so:system/vendor/lib/libgui_ext.so \
 #     vendor/powkiddy/x18/proprietary/vendor/lib64/libgui_ext.so:system/vendor/lib64/libgui_ext.so \
-#       vendor/powkiddy/x18/proprietary/vendor/lib/libnvram.so:system/vendor/lib/libnvram.so \
-#       vendor/powkiddy/x18/proprietary/vendor/lib64/libnvram.so:system/vendor/lib64/libnvram.so \
-#       vendor/powkiddy/x18/proprietary/vendor/lib/libnvramagentclient.so:system/vendor/lib/libnvramagentclient.so \
-#       vendor/powkiddy/x18/proprietary/vendor/lib64/libnvramagentclient.so:system/vendor/lib64/libnvramagentclient.so \
-
 
 # Add packages
 
@@ -457,14 +456,3 @@ PRODUCT_PACKAGES += \
 # YGPS
 PRODUCT_PACKAGES += \
     YGPS
-
-# Remove Packages
-PRODUCT_PACKAGES +=\
-    RemovePackages
-
-# HDMI Packages
-PRODUCT_PACKAGES += \
-    hdmi \
-    hdmimanager \
-    libhdmiservice \
-    libhdmi
